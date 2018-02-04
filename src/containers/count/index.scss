@@ -1,0 +1,29 @@
+
+button {
+    height: 40px;
+    width: 80px;
+    border: 3px solid #000;
+    cursor: pointer;
+    outline: none;
+    margin-right: 5px;
+    background: #FFF;
+
+    &:hover {
+    	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    }
+
+    &:active {
+    	background: #4A4F4E;
+    	color: #FFF;
+    	border-color: #4A4F4E;
+    }
+}
+
+.key {
+	margin: 20px 0;
+
+	p {
+		margin: 0;
+		font-size: 11px
+	}
+}

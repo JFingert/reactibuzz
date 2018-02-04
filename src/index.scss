@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+$default-serif: 'Montserrat', serif;
+$break-small: 800px;
+
+@import 'containers/app/index';
+@import 'containers/count/index';
+
+body {
+	font-family: $default-serif;
+
+	a {
+		text-decoration: none;
+	}
+
+	.container {
+		margin: 0;
+		text-align: center;
+
+		@media screen and (max-width: $break-small) {
+		   margin: 0 20px;
+
+		}
+	}
+}
